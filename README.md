@@ -1,6 +1,15 @@
 # UAS PEMROGRAMAN WEB
 project ini digunakan untuk memenuhi tugas akhir semester mata kuliah pemrograman web. membuat aplikasi web sederhana yang berbasis React, Node.js, dan Ethereum atau Sepolia
 
+## Profil
+```bash
+Nama           : Imroatu Zakiyah
+NIM            : 241111032
+Program Studi  : Informatika A
+Dosen          : Restiadi Bayu Taruno, S.T., M.Eng.
+Universitas    : Universitas Nahdlatul Ulama
+```
+
 ## Fitur-fitur 
 - Koneksi wallet metamask
 - Menampilkan saldo wallet
