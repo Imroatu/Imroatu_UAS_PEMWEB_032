@@ -1,0 +1,82 @@
+/* ===== RESET & GLOBAL ===== */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f4f6f8;
+  color: #1f2937;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* ===== JUDUL ===== */
+h1 {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+/* ===== GRID LAYOUT ===== */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 24px;
+}
+
+/* ===== CARD ===== */
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+}
+
+
+.card p {
+  margin: 6px 0;
+  word-break: break-all;
+}
+
+
+button {
+  padding: 10px 18px;
+  margin-bottom: 12px;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #1e40af;
+}
+
+/* ===== TRANSAKSI ===== */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+}
